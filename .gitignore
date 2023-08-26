@@ -2,3 +2,7 @@ venv/
 db.sqlite3
 .env
 .DB_Store
+htmlcov/
+.coverage/
+*.md
+__pycach__
