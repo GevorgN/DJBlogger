@@ -32,7 +32,7 @@ class PostFactory(factory.django.DjangoModelFactory):
 		if not create:
 			return
 		if extracted:
-			self.tags.add(extracted)
+			self.tags.add(*extracted)
 		else:
 			self.tags.add('Python','Django','Database','Pytest','VScode','ORM','Back-End')
 			
